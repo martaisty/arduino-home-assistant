@@ -62,6 +62,7 @@ const char HASpeedRangeMinProperty[] PROGMEM = {"spd_rng_min"};
 const char HABrightnessScaleProperty[] PROGMEM = {"bri_scl"};
 const char HAMinMiredsProperty[] PROGMEM = {"min_mirs"};
 const char HAMaxMiredsProperty[] PROGMEM = {"max_mirs"};
+const char HAEffectsProperty[] PROGMEM = {"fx_list"};
 const char HATemperatureUnitProperty[] PROGMEM = {"temp_unit"};
 const char HAMinTempProperty[] PROGMEM = {"min_temp"};
 const char HAMaxTempProperty[] PROGMEM = {"max_temp"};
@@ -100,6 +101,8 @@ const char HATemperatureCommandTopic[] PROGMEM = {"temp_cmd_t"};
 const char HATemperatureStateTopic[] PROGMEM = {"temp_stat_t"};
 const char HARGBCommandTopic[] PROGMEM = {"rgb_cmd_t"};
 const char HARGBStateTopic[] PROGMEM = {"rgb_stat_t"};
+const char HAEffectCommandTopic[] PROGMEM = {"fx_cmd_t"};
+const char HAEffectStateTopic[] PROGMEM = {"fx_stat_t"};
 
 // misc
 const char HAOnline[] PROGMEM = {"online"};
